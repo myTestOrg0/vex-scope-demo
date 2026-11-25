@@ -2,8 +2,8 @@
   "@context": "https://openvex.dev/ns/v0.2.0",
   "@id": "https://github.com/myTestOrg0/vex-scope-demo/blob/main/pkg/npm/next/vex.json",
   "author": "SecOps (test)",
-  "timestamp": "2026-11-25T00:00:00Z",
-  "version": 1,
+  "timestamp": "2026-11-25T12:00:00Z",
+  "version": 2,
   "statements": [
     {
       "vulnerability": {
@@ -37,7 +37,7 @@
       "whitelist_repositories": [
         "myTestOrg0/ethereum-staking-widget-1"
       ],
-      "whitelist_expires": "2027-01-23"
+      "whitelist_expires": "2026-11-01"
     },
     {
       "vulnerability": {
@@ -71,7 +71,7 @@
       "whitelist_repositories": [
         "myTestOrg0/staking-vault-widget"
       ],
-      "whitelist_expires": "2026-11-01"
+      "whitelist_expires": "2027-01-23"
     }
   ]
 }

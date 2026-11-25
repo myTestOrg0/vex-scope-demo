@@ -1,0 +1,77 @@
+{
+  "@context": "https://openvex.dev/ns/v0.2.0",
+  "@id": "https://github.com/myTestOrg0/vex-scope-demo/blob/main/pkg/npm/next/vex.json",
+  "author": "SecOps (test)",
+  "timestamp": "2026-11-25T00:00:00Z",
+  "version": 1,
+  "statements": [
+    {
+      "vulnerability": {
+        "name": "GHSA-2xp9-vwfh-vxw4"
+      },
+      "products": [
+        {
+          "@id": "pkg:npm/next@12.3.7"
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "TEST copy of the lidofinance/vex Next.js entry. next.config.mjs sets images.loader to 'custom', so Next.js 12.3.7 answers /_next/image with 404 and never runs the vulnerable Image Optimization API.",
+      "whitelist_repositories": [
+        "myTestOrg0/ethereum-staking-widget-1"
+      ],
+      "whitelist_expires": "2027-01-23"
+    },
+    {
+      "vulnerability": {
+        "name": "GHSA-2464-fhr4-w9xw"
+      },
+      "products": [
+        {
+          "@id": "pkg:npm/next@12.3.7"
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "TEST copy of the lidofinance/vex Next.js entry. next.config.mjs sets images.loader to 'custom', so Next.js 12.3.7 answers /_next/image with 404 and never runs the vulnerable Image Optimization API.",
+      "whitelist_repositories": [
+        "myTestOrg0/ethereum-staking-widget-1"
+      ],
+      "whitelist_expires": "2027-01-23"
+    },
+    {
+      "vulnerability": {
+        "name": "GHSA-2xp9-vwfh-vxw4"
+      },
+      "products": [
+        {
+          "@id": "pkg:npm/next@12.3.7"
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "TEST copy of the lidofinance/vex Next.js entry. next.config.mjs sets images.loader to 'custom', so Next.js 12.3.7 answers /_next/image with 404 and never runs the vulnerable Image Optimization API.",
+      "whitelist_repositories": [
+        "myTestOrg0/staking-vault-widget"
+      ],
+      "whitelist_expires": "2026-11-01"
+    },
+    {
+      "vulnerability": {
+        "name": "GHSA-2464-fhr4-w9xw"
+      },
+      "products": [
+        {
+          "@id": "pkg:npm/next@12.3.7"
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "TEST copy of the lidofinance/vex Next.js entry. next.config.mjs sets images.loader to 'custom', so Next.js 12.3.7 answers /_next/image with 404 and never runs the vulnerable Image Optimization API.",
+      "whitelist_repositories": [
+        "myTestOrg0/staking-vault-widget"
+      ],
+      "whitelist_expires": "2026-11-01"
+    }
+  ]
+}

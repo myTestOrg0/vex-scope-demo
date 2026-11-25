@@ -1,0 +1,15 @@
+{
+  "name": "vex-scope-demo",
+  "description": "TEST: lidofinance/vex-style scoped statements for the release workflow scope filter demo",
+  "versions": [
+    {
+      "spec_version": "0.1",
+      "locations": [
+        {
+          "url": "https://github.com/myTestOrg0/vex-scope-demo/archive/refs/heads/main.tar.gz//vex-scope-demo-main"
+        }
+      ],
+      "update_interval": "1h"
+    }
+  ]
+}

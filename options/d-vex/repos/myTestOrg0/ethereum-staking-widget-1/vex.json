@@ -1,0 +1,45 @@
+{
+  "@context": "https://openvex.dev/ns/v0.2.0",
+  "@id": "options/d-vex/repos/myTestOrg0/ethereum-staking-widget-1/vex.json",
+  "author": "SecOps (TEST)",
+  "timestamp": "2026-11-26T00:00:00Z",
+  "version": 1,
+  "statements": [
+    {
+      "vulnerability": {
+        "name": "GHSA-2xp9-vwfh-vxw4"
+      },
+      "products": [
+        {
+          "@id": "pkg:npm/next@12.3.7",
+          "subcomponents": [
+            {
+              "@id": "TEST: only myTestOrg0/ethereum-staking-widget-1"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": ""
+    },
+    {
+      "vulnerability": {
+        "name": "GHSA-2464-fhr4-w9xw"
+      },
+      "products": [
+        {
+          "@id": "pkg:npm/next@12.3.7",
+          "subcomponents": [
+            {
+              "@id": "TEST: only myTestOrg0/ethereum-staking-widget-1"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": ""
+    }
+  ]
+}

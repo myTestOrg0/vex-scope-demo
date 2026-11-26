@@ -1,0 +1,10 @@
+{
+  "updated_at": "2026-11-26T00:00:00Z",
+  "packages": [
+    {
+      "id": "pkg:oci/staking-widget?repository_url=registry.prod.k8s-prod.org%2Fteam-si%2Fstaking-widget",
+      "location": "oci/team-si/staking-widget/vex.json",
+      "format": "openvex"
+    }
+  ]
+}

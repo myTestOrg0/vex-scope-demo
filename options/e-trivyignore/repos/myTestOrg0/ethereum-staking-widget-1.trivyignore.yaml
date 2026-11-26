@@ -1,0 +1,10 @@
+# TEST: only myTestOrg0/ethereum-staking-widget-1
+vulnerabilities:
+  - id: GHSA-2xp9-vwfh-vxw4
+    purls: ["pkg:npm/next@12.3.7"]
+    expired_at: 2027-01-23
+    statement: "TEST: valid until 2027-01-23"
+  - id: GHSA-2464-fhr4-w9xw
+    purls: ["pkg:npm/next@12.3.7"]
+    expired_at: 2026-11-01
+    statement: "TEST: expired on 2026-11-01"

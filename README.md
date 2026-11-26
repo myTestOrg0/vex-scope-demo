@@ -14,7 +14,7 @@ Any other repository gets nothing from this source.
 
 | Option | Data | myTestOrg0/ethereum-staking-widget-1 | myTestOrg0/staking-vault-widget |
 |---|---|---|---|
-| A. global VEX | `index.json` + `pkg/npm/next/vex.json` as is | both GHSAs | both GHSAs |
+| A. global VEX | `options/a-global/` (plain package statements, no custom fields) | both GHSAs | both GHSAs |
 | B. image statements | `options/b-oci/` (image `team-si/staking-widget` + `next@12.3.7` as subcomponent) | both (image name `staking-widget`) | none (image name `staking-vault-widget`) |
 | C. scope-vex filter | `pkg/npm/next/vex.json` + `whitelist_*` fields | GHSA-2xp9 only (GHSA-2464 expired) | GHSA-2464 only (GHSA-2xp9 expired) |
 | D. central per-repo VEX | `options/d-vex/repos/<owner>/<repo>/vex.json` | both | none (no file) |
